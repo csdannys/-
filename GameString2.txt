@@ -1,3 +1,7 @@
+﻿"Behavior/Tooltip/SpikedArmorLevel1=폭파 전문가를 공격한 유닛에게 5의 피해를 입힙니다.
+"Behavior/Tooltip/SpikedArmorLevel2=폭파 전문가를 공격한 유닛에게 10의 피해를 입힙니다.
+"Behavior/Tooltip/SpikedArmorLevel3=폭파 전문가를 공격한 유닛에게 20의 피해를 입힙니다.
+#REF!=
 Abil/Name/Adrenaline=Adrenaline
 Abil/Name/AirStrike=Air Strike
 Abil/Name/AmmoFeedDummy=Ammo Feed (Dummy)
@@ -332,17 +336,16 @@ Attribute001/Name=Map Night
 Attribute001/Value001/Desc=Map Night is ON!!!
 Attribute001/Value001/Name=Enabled
 Attribute002/Name=십자 훈장 모드
-Attribute002/Value001/Desc=모든 맵의 구급 상자와 붕대가 사라짐
+Attribute002/Value001/Desc=Game will start with Navy Cross, all Medkits/Bandages will be removed.
 Attribute002/Value001/Name=십자 훈장 모드 켜짐
-Attribute002/Value002/Desc=모드 없이 시작
+Attribute002/Value002/Desc=Game will start as normal
 Attribute002/Value002/Name=십자 훈장 모드 꺼짐
-Attribute003/Desc=직업 선택을 어떻게 할지 설정
+Attribute003/Desc=Defines how classes are selected in game
 Attribute003/Name=직업 선택
-Attribute003/Value001/Desc=모든 인원이 셀렉과 랜덤 가능
-Attribute003/Value001/Name=모든 인원이 랜덤 선택만 불가능
-#REF!
+Attribute003/Value001/Desc=Selecting classes normal.
+Attribute003/Value001/Name=Standard
 Attribute003/Value002/Name=랜덤 없음
-Attribute003/Value003/Desc=모든 인원이 랜덤 선택만 가능
+Attribute003/Value003/Desc=Forced random selection.
 Attribute003/Value003/Name=모두 랜덤
 Attribute003/Value004/Desc=Allow 1 random class.
 Attribute003/Value004/Name=1 Random
@@ -351,11 +354,11 @@ Attribute003/Value005/Name=2 Randoms
 Attribute003/Value006/Desc=Allow 3 random classes.
 Attribute003/Value006/Name=3 Randoms
 Attribute004/Name=상점 활성화
-Attribute004/Value001/Desc=훈련병 모드가 아닐 때 모든 상점 이용 가능
+Attribute004/Value001/Desc=Shop is available in non recruit modes.
 Attribute004/Value001/Name=켜짐
-Attribute004/Value002/Desc=모든 상점이 게임 내에서 이용 불가능
+Attribute004/Value002/Desc=Buying of one game items is disabled.
 Attribute004/Value002/Name=꺼짐
-Barret/MMRifle Equipped=M45 지정 사수 소총 혹은 M112 바렛을 장착해야 함.
+Barret/MMRifle Equipped=M45 Marksman Rifle or Barret M112 Equipped
 Behavior/Name/AMRounds=AM 탄환
 Behavior/Name/APAmmo=<c val="80FF80">AP 탄환</c>
 Behavior/Name/AdrenalineLevel1=아드레날린 Lv.1
@@ -420,7 +423,6 @@ Behavior/Name/ChemicalPlatingLevel3=화학물 장판 Lv.3
 Behavior/Name/ChemicalPlatingOxalicPoison=화학물 장판 (옥살산 독)
 Behavior/Name/ChemicalPlatingTemplate=화학물 장판 템플릿
 Behavior/Name/Chewed=Chewed
-#REF!
 Behavior/Name/CockpitClosed=Cockpit Closed
 Behavior/Name/CockpitOpened=조종석 개방
 Behavior/Name/CohesionLevel1=단결 Lv.1
@@ -598,7 +600,6 @@ Behavior/Name/NanosteelNetSlowLevel1=나노 강철 그물 (둔화) Lv.1
 Behavior/Name/NanosteelNetSlowLevel2=나노 강철 그물 (둔화) Lv.2
 Behavior/Name/NanosteelNetSlowLevel3=나노 강철 그물 (둔화) Lv.3
 Behavior/Name/NanosteelNetSlowTemplate=나노 강철 그물 (둔화) 템플릿
-#REF!
 Behavior/Name/NapalmAnimationDummy=네이팜 포격
 Behavior/Name/NapalmAnimationDummyPersistent=네이팜 포격 (애니메이션 더미 지속)
 Behavior/Name/NegativePolarity=음극
@@ -645,7 +646,6 @@ Behavior/Name/RighteousnessLevel1=정의 Lv.1
 Behavior/Name/RighteousnessLevel2=정의 Lv.2
 Behavior/Name/Safeguard=세이프 가드
 Behavior/Name/SapStun=충격 요법 (기절)
-#REF!
 Behavior/Name/SeekerSpawn=충격 요법 (기절)
 Behavior/Name/SelfDestructStun=자폭 (기절)
 Behavior/Name/SensoryConfusionCloak=감각 혼란 (은폐)
@@ -1002,12 +1002,6 @@ Behavior/Tooltip/SonicTrapStunLevel2=1.2초간 기절
 Behavior/Tooltip/SpawningSickness=3초간 이동불가
 Behavior/Tooltip/SpectreHoldFire=사격 중지. 이동속도 +10%
 Behavior/Tooltip/SpeedofThoughtStun=2초 동안 기절
-"Behavior/Tooltip/SpikedArmorLevel1=폭파 전문가를 공격한 유닛에게 5의 피해를 입힙니다.
-보호막 방어력 +1, 보호막+5"
-"Behavior/Tooltip/SpikedArmorLevel2=폭파 전문가를 공격한 유닛에게 10의 피해를 입힙니다.
-보호막 방어력 +2, 보호막+10"
-"Behavior/Tooltip/SpikedArmorLevel3=폭파 전문가를 공격한 유닛에게 20의 피해를 입힙니다.
-보호막 방어력 +4, 보호막+20"
 Behavior/Tooltip/Sprint=5초 동안 이동속도 +35%
 Behavior/Tooltip/Sprint2=5초 동안 이동속도 +35%
 Behavior/Tooltip/SprintLevel1=5초 동안 이동속도 +35%
@@ -2207,16 +2201,16 @@ DocInfo/PatchNote277=- Fixed handgun expertise adding wrong amount of damage to 
 DocInfo/PatchNote278=- Pathfinder skilltree sometimes getting filled up (11 skills) using only 10 skill points (Niktos)
 DocInfo/PatchNote279=- Fixed Engineer Nexus shared vision not being removed on Nexus death (Niktos)
 DocInfo/PatchNote280=- Fixed Queen shrieking even if dead (Niktos)
-DocInfo/Screenshot01=팀원과 함께 보스와 싸우세요.
-DocInfo/Screenshot02=숨겨진 미션도 있습니다. 잘 찾아 보세요.
-DocInfo/Screenshot03=팀과 함께다니고 승리하세요.
-DocInfo/Screenshot04=스킬 포인트를 사용해서 기술을 해금하고 14개의 직업을 해보세요.
-DocInfo/Screenshot05=최대 8명의 플레이어와 많은 수의 좀비들이 있습니다.
-DocInfo/ScreenshotHowToPlay01=인터페이스 가이드 - 영어버전 2
-DocInfo/ScreenshotHowToPlay02=고지대에서 적과 교전하세요.
-DocInfo/ScreenshotHowToPlay03=팀과 함께 미션을 완수하세요.
-DocInfo/ScreenshotHowToPlay04=좀비여왕을 사살하고, 아폴로를 정화하세요.
-DocInfo/ScreenshotHowToPlay05=인터페이스 가이드 - 영어버전 1
+DocInfo/Screenshot01=Employ your wit to fight bosses
+DocInfo/Screenshot02=Complete many unique missions
+DocInfo/Screenshot03=Work together and win as a team
+DocInfo/Screenshot04=Unlock new talents and up to 14 classes
+DocInfo/Screenshot05=8 Marines. A Million Zombies. You Decide.
+DocInfo/ScreenshotHowToPlay01=NOTD User Interface Guide - Part 2
+DocInfo/ScreenshotHowToPlay02=Engage enemies from high ground
+DocInfo/ScreenshotHowToPlay03=Complete missions together
+DocInfo/ScreenshotHowToPlay04=Save Apollo. Kill the Zombie Queen.
+DocInfo/ScreenshotHowToPlay05=NOTD User Interface Guide - Part 1
 DocInfo/Website=https://discord.gg/gC4wsCP
 Effect/Name/AMRoundsApply=AM Rounds Apply
 Effect/Name/AMRoundsRemoveHEF=AM Rounds (Remove HE-F)
@@ -4039,6 +4033,7 @@ Param/Value/041ADC4A=아폴로 우주공항에서 군병력을 찾기
 Param/Value/048EF2B2=만일 블랙 옵스들이 연관되어 있다면, 이것은 정치계 상층부까지 영향이 있는 거다.
 Param/Value/048FA946=머리에 총을 쏴야해. 총 줘봐. 내가 보여주지.
 Param/Value/04F0C35D=박사! 좀 더 서두르도록 해!
+Param/Value/052698DA=.</n>생체 아이디: 
 Param/Value/0535EF66=보여... 밝은 빛이...
 Param/Value/05597CDB=컴퓨터에 접속해서 기록을 한번 살펴보자.
 Param/Value/0567028D=+
@@ -4046,7 +4041,7 @@ Param/Value/0577A641=:
 Param/Value/05848868=No. All the gunfire is playing tricks with our ears.
 Param/Value/05BF5D82=알겠다. 탄약을 회수하고 우리는 움직이겠다.
 Param/Value/05C9C370=중앙광장으로 이동한다. 우리는 생존자들을 위해 탈출 지점을 만들어야 해
-Param/Value/060BE9EA=스킬 포인트 수 :
+Param/Value/060BE9EA=<s val="talents">스킬 포인트 수</s> :
 Param/Value/062A9941=임무 성공! 2 XP가 지급됩니다.
 Param/Value/069FDC3C=발전기가 아폴로 전역에 있다.
 Param/Value/06A43C14=화력을 위해 경비대 인원들을 보호해라.
@@ -4096,11 +4091,11 @@ Param/Value/0E5A2850=과학자
 Param/Value/0E5EDA3D=
 Param/Value/0EB0EFBD=승리수 -
 Param/Value/0EC7DFD6=</s>
-Param/Value/0EC88977=<lang rule="jongsung">이,가</lang> 멋지게 자살 했습니다.
+Param/Value/0EC88977=<lang rule="jongsung">이,가 멋지게 자살 했습니다.
 Param/Value/0ED9301E=성과 보너스! 1 XP가 추가로 지급됩니다.
 Param/Value/0EDEDB03=챕터 1
 Param/Value/0EE34416=너무 많아! 요충지를 찾는다.
-Param/Value/0F14107D=(에레보스가 <c val="00FF00">재생 껍질</c>을 형성중...)
+Param/Value/0F14107D=(에레보스가<c val="00FF00">재생 껍질</c>을 형성중...)
 Param/Value/0F90DB7F=경비대  A팀: 경비대 B팀과 접촉하기
 Param/Value/0FAEAC02=아테나... 당신은 자유입니다.
 Param/Value/10880E5C=팬텀 6, 팬텀 1이 이 섹터내에 있다.
@@ -4138,7 +4133,7 @@ Param/Value/169FB0FE=확인. 전력으로 달리는 중!
 Param/Value/16DD4057=저건 뭐지?
 Param/Value/16E1B302=데이터 전송 완료
 Param/Value/16FE1446=알겠다. 검역부대가 데리러 가고 있다.
-Param/Value/170B2CA0=그들은 고도로 훈련된 병사들이다. 조심하도록
+Param/Value/170B2CA0=그들은 고도로 훈련되어 있습니다. 하지만 그들은 인간일 뿐입니다.
 Param/Value/17187F2B=안전한 곳으로 이동한다. 동작 감지기가 여전히 반응 하고 있다.
 Param/Value/174CE2FA=XP:
 Param/Value/17AD8B74=<s val="WaitingForUsersDialogTitle"><c val="00FF40">Z - 확대</c><n/><c val="00FFFF">X - 팀 HUD창</c><n/><c val="FFFF80">C - 카메라 시점 변경</c><n/>M - 건쉽 모드 종료</s>
@@ -4225,6 +4220,7 @@ Param/Value/271AF673=모두 괜찮나? 일단 우리는 이곳을 빠져나간�
 Param/Value/275382AF=저 빔을 피해. 필요하다면 달려.
 Param/Value/2757CF11=지금 나랑 장난하는건가.
 Param/Value/275E16C1=해독 가스 방출
+Param/Value/2776FDCA=.</c>
 Param/Value/2777278B=남은 목숨 수.
 Param/Value/27B9C85A=의료도구를 사용해서 회복해.
 Param/Value/27BB3E98=IVAX에 꼭 붙어. 우리는 채굴시설을 사수한다,
@@ -4357,7 +4353,7 @@ Param/Value/3B326EDC=멋지군.
 Param/Value/3B8FE58E=우린 그저 장기말에 불과할 뿐이야...
 Param/Value/3C629772=이박스? 다음 주에 화성으로 보내려고 했던거 잖아.
 Param/Value/3C6EFD98=훌륭합니다. 당신들은 아폴로의 감염을 정화했어요.
-Param/Value/3CA19E89=<c val="0080FF">뱅크 저장중... </c>
+Param/Value/3CA19E89=<c val="0080FF">생체 아이디 저장중... 
 Param/Value/3CCA7962=
 Param/Value/3CD09D38=그들을 찾으면 바로 델타-1 으로 데려와주세요. 조종수는 죽었지만 구역내 어디보다 안전합니다.
 Param/Value/3CFEA3BD=<n/><c val="FF0000">이 모드에서 사용 불가능e</c><n/><n/>
@@ -4377,7 +4373,7 @@ Param/Value/3EA0E930=해독이 완료 될 때 까지 에어락을 사수하라
 Param/Value/3EC532D7=[아웃브레이크]
 Param/Value/3EF0EAF1=여기서 끝나지 않는다. 우린 아폴로로 들어갈 길을 찾을것이다.
 Param/Value/3F3D628D=임무 보너스 +1 XP
-Param/Value/3FAE88EC=<s val="GlueButton">초보자 팁: <c val="BEE916">
+Param/Value/3FAE88EC=<s val="GlueButton">팁: <c val="BEE916">
 Param/Value/404B0C5C=생존 모드는 적들이 매 웨이브마다 옵니다. 임무는 없고 최대한 오래 살아남으십시오.
 Param/Value/40865F64=[<c val="FF0000">중요 통신</c>]<n/>콜러 장군: <n/>하데스는 감염의 근원이고 반드시 맞서 싸워야한다. 저것에 가진 모든것을 쏟아부어야 할 것이다. 행운을 빈다.
 Param/Value/409F0FCD=그건 광섬유망이 살아있는 어디에서도 호스팅 될 수 있어... 화성이나.. 어쩌면 지구까지도..
@@ -4417,7 +4413,7 @@ Param/Value/4782E35D=당신한테 충분히 들었다.
 Param/Value/481CA5D5=UGC 사령부가 이 임무에 대해 우리가 떠벌리지 않는걸 원하는군. 0900에 보고한다.
 Param/Value/4826ECBA=2명 이하로 20웨이브 이상 진행 하실수 없습니다.
 Param/Value/4876E9AF=데메테르가 눈으로 응시하면 멀리 피해야합니다.
-Param/Value/48BA160F=<c val="0080FF">생체 아이디 저장중... </c>
+Param/Value/48BA160F=<c val="0080FF">생체 아이디 저장중... 
 Param/Value/490BB556=<s val="InfoPaneUnitInfo">[탄창 휴대 수] -- (사용한 수)
 Param/Value/49193959=%</c>
 Param/Value/49319E6D=모든 땅굴벌레를 파괴했다.
@@ -4432,7 +4428,7 @@ Param/Value/4B31A45D=불가능하다. 너희 팀은 첫번째로 현장에 투�
 Param/Value/4B3AA85B=저게 우리 뇌를 원하는군. 죽여!
 Param/Value/4B50586A=<s val="InfoPaneHeroRank">더 이상 십자 훈장을 획득 할 수 없습니다.</s>
 Param/Value/4B7EE57A=보스 접근중
-Param/Value/4BBC15E6=<lang rule="jongsung">은,는</lang> 산산조각이 났습니다.
+Param/Value/4BBC15E6=<lang rule="jongsung">은,는 산산조각이 났습니다.
 Param/Value/4BE4FA98=우린 알파 중대입니다. 우리와 함께 있으면 안전할 겁니다.
 Param/Value/4C162120=<s val="BriefingHanText">(숙련된 전문가만 작동 시킬 수 있습니다...)</s>
 Param/Value/4C3994F3=생존자들을 나카가와 구역의 델타-1로 데려와라
@@ -4502,7 +4498,7 @@ Param/Value/544D04BA=<s val="InfoPaneHeroRank">랜덤 선택 불가능</s><n/>- 
 Param/Value/54524404=박사님. 당신이 베르그만을 언급 한걸 들었습니다. 박사님은 그 사람을 모른다고 말했잖습니까.
 Param/Value/546EB49A=+1
 Param/Value/5472209A=Our forces are stretched thin. Stay close.
-Param/Value/548D875C=이(가) 40 카르마와 250 XP를 잃었습니다!
+Param/Value/548D875C=<lang rule="jongsung">이,가 25 카르마와 100 XP를 잃었습니다!
 Param/Value/54C65657=!
 Param/Value/54E03E28=정화...실패...
 Param/Value/55074174=전부 만신창이구만.
@@ -4517,6 +4513,7 @@ Param/Value/56AE5BF6=</c>)
 Param/Value/56E0E208=생태관 A의 모든 좀비를 사살하라.
 Param/Value/571BB748=성과 보너스 2XP가 추가로 지급됩니다.
 Param/Value/575E2C34=보안 카메라 확보하기 (
+Param/Value/579546BE=ㅇ
 Param/Value/586C0FCE=사격 개시!
 Param/Value/58CFB917=<s val="HeaderExtendedTemplate">Medal of Honor</s>
 Param/Value/58DA23DB=
@@ -4531,7 +4528,8 @@ Param/Value/5AA04D5B=/60)</c>
 Param/Value/5AC82CF0=챕터 2
 Param/Value/5B1491B3=생태관 B는 대공 무기가 적합합니다.
 Param/Value/5B297F90=주변에 생체 반응이 나타난다!
-Param/Value/5B4DEB8C=<c val="0080FF">생체 아이디 등록. 환영합니다, </c>
+Param/Value/5B4DEB8C=<c val="0080FF">생체 아이디 등록. 환영합니다, 
+Param/Value/5B6F2759=.</c>
 Param/Value/5B896DB4=아폴로에 고립된 시민 찾기 <c val="C0C000">(
 Param/Value/5B92DE4B=채광지를 조사하라.
 Param/Value/5BD11E6A=저게 착륙선에 맞아서 놀랍군
@@ -4546,7 +4544,7 @@ Param/Value/5D6CA469=대형을 좁게 유지해!
 Param/Value/5D91964B=<s val="InfoPaneHeroRank">(발전기 코어 가동에 2명의 허가된 인원이 필요합니다..)</s>
 Param/Value/5E300354=!
 Param/Value/5E6F0326=이보게, 그건 불가능해.
-Param/Value/5E7C397E=(여왕이 죽음을 직감하고 도망가기 시작합니다.)
+Param/Value/5E7C397E=(Sensing her mortality, the Queen begins to withdraw..)
 Param/Value/5E9D241A=asasd
 Param/Value/5EDDC08C=우리는 우주 공항도 잃었어. 거기서 탈출 할 수 없다고.
 Param/Value/5F4DD8DA=도착 2분 전. 놈들의 움직임이 보인다. 네 쪽으로 가고 있군.
@@ -4598,12 +4596,12 @@ Param/Value/6775B4D5=남은 스텟 포인트:
 Param/Value/67897E79=<n/></c>Magazines: <c val="F4D72B">
 Param/Value/67A06AF8=The containers are underneath those cranes. You'll need to spread your team tactically and respond to threats that come.
 Param/Value/67AE4653=우린 저걸 못죽여. 저놈과 떨어져 있자고.
-Param/Value/67D0624B=이(가) 다음 병과를 선택함 : 
+Param/Value/67D0624B=<lang rule="jongsung">이,가 다음 병과를 선택함 : 
 Param/Value/683F9C4F=북서쪽에서 약한 신호를 탐지했습니다. 그 신호는 통신탑에서 나오고 있습니다.
 Param/Value/6869707B=생태관의 동바리에 사격을 집중해.
 Param/Value/68AC1FF6=<s val="GlueButton">
 Param/Value/68C9EDBA=뒤를 부탁합니다.
-Param/Value/68CD3E1E=안전한 지역을 찾아 블랙 옵스의 공격을 방어하세요.
+Param/Value/68CD3E1E=안전한 지역을 찾아 블랙 옵스의 공격을 방어하라.
 Param/Value/68E80C9E=<c val="FF0000">탄약 없음</c>
 Param/Value/68EC50FB=
 Param/Value/694F4581=아폴로 주변의 발전기를 켜라
@@ -4694,7 +4692,7 @@ Param/Value/78E290D7=<s val="InfoPaneHeroRank">Not eligible for Navy Cross</s>
 Param/Value/78EE4707=전체 상황이 x됐군.
 Param/Value/790B2B1C=시민들을 안전하게 호위하기
 Param/Value/790C3BE0=<s val="InfoPaneHeroRank">(독성 신경 가스가 방출됐습니다...)</s>
-Param/Value/7924EE5C=당신들 손에 달려있습니다. 행운을 빕니다.
+Param/Value/7924EE5C=They're all yours. Good luck, Marines.
 Param/Value/795CA19E=당신은 자상을 입었습니다. 붕대를 사용하거나 의무관을 찾으세요.
 Param/Value/796A229D=찰리를 찾아라
 Param/Value/796AFF60=<c val="FF0000">치명상!</c><n/>
@@ -4745,7 +4743,7 @@ Param/Value/81F61D65=가만히 있자. 우린 저걸 처리 할 수 없어.
 Param/Value/81FAFE7F=절반의 인원이 그놈 때문에 죽었다. 타나카를 찾아!
 Param/Value/823C2E42=챕터 2
 Param/Value/82721D05=직업 선택
-Param/Value/82DEF515=스킬 포인트 수 :
+Param/Value/82DEF515=<s val="talents">스킬 포인트 수</s> :
 Param/Value/82F1182C=팬텀  1, 지원군을 보내고 있다.
 Param/Value/831531A0=집중해. 우린 주의를 많이 끌었어.
 Param/Value/83291A14=<s val="HeaderExtendedTemplate">Medals</s>
@@ -4755,6 +4753,7 @@ Param/Value/838A6F01=미완성된 이박스 유닛이 군 기지에 있다.
 Param/Value/83EBF2B8=Survive the outbreak with Apollo Security Team
 Param/Value/8423EF3A=아폴로 공항에서 적의 공격으로 부터 살아남기
 Param/Value/843B3A52=생태관 D를 파괴하라
+Param/Value/844F5014=
 Param/Value/845C5CB0=<s val="GlueButton">파리카 어거스틴
 Param/Value/8505DA80=The infestation has taken hold at the airlock and your squad has riled their desire for blood. High ground will help you face the large hordes effectively.
 Param/Value/8569CB3E=-- (
@@ -4778,10 +4777,10 @@ Param/Value/8859CAF7=죽었군.
 Param/Value/88B3D376=그는 아폴로 외곽의 이 시설들 중에 있을꺼다. 아폴로 내부 스캔 결과는 해당 인물 없음 이라고 표시되는군.
 Param/Value/88F8A360=<s val="BriefingHanText">경고: 알 수 없는 DNA 탐지됨</s>
 Param/Value/891CBD67=생존 모드 완료
-Param/Value/8920566F=시민들을 안전하게 트럭까지 호위하세요.
+Param/Value/8920566F=Escort the civilians. Your spider sense is tingling!
 Param/Value/8937B730=그리고 감염이 더 확산될 위협을 감수해야 합니까? 이 결정은 후회할 결정입니다.
 Param/Value/8956F522=팀원과 같이 조심히 이동한다. 어서가자!
-Param/Value/8988293C=에레보스를 그만 공격하세요! 재생껍질 활성화 상태에서 공격하면 에레보스는 받은 공격력을 체력으로 회복합니다.
+Param/Value/8988293C=에레보스를 그만 공격해! 이 상태에서 공격하면 저놈은 역으로 재생한다.
 Param/Value/899233CC=
 Param/Value/89D6CBC2=에레보스의 에너지 볼텍스를 피하세요. 그것은 지속적으로 피해를 가합니다.
 Param/Value/89DE7F2D=이박스 가동
@@ -4789,13 +4788,14 @@ Param/Value/8A179710=Redrum...
 Param/Value/8A3E12C6=제우스와 레토를 영구적으로 죽이려면 거의 동시에 죽여야 합니다.
 Param/Value/8A6A3A99=당신은...내 조난 신호를 받았군. 나는 베르그만 박사요.
 Param/Value/8A81181E=<s val="InfoPaneHeroRank">(생태관 터미널은 2명의 허가된 인원이 필요함...)</s>
-Param/Value/8A9EFD0F=스킬 포인트 수 :
+Param/Value/8A9EFD0F=<s val="talents">스킬 포인트 수</s> :
 Param/Value/8AFA7FB8=<s val="BriefingHanText">(지하의 움직임 감지됨...)</s>
 Param/Value/8B0A5814=You have 2 inventory types. <n/>-  Equipment slots on the left (Numpad 0) allow you to equip weapons/armor/enhancements for use.<n/>Backpack slots on the right (Numpad 1) store spare equipment & supplies.<n/><n/>The more items you carry, the slower your Marine will move. Be selective and carry what you need. Share the load with other Marines
 Param/Value/8B17FA99=격납고의 데바스테이터들을 재가동 했다. 이 녀석들이 화력 지원을 수행해줄꺼다.
 Param/Value/8B3790A4=스탯
 Param/Value/8B3F7459=Too many distractions. Must focus.
 Param/Value/8B5E5F28=챕터 1
+Param/Value/8BCE2E2E=.</n>생체 아이디: 
 Param/Value/8BD93954=<s val="BriefingHanText">   Designers<n/>   Daren Yoong (Ability)<n/>   Charles Passen (Kithrixx)</s>
 Param/Value/8BEB60C9=<n/>플레이 수:
 Param/Value/8BFF1855=아폴로 동쪽의 경비팀 B를 구출하라.
@@ -4870,12 +4870,13 @@ Param/Value/970215F7=미 사용중인 개조 포인트 수:
 Param/Value/972D5DD3=<s val="BriefingHanText">   Website<n/>   Tristan Stallans (Blaqk)<n/>   Gregory Hlavac (Mirage)<n/>   Colin Lim</s>
 Param/Value/9730548F=자리 잡아.
 Param/Value/9734B78C=의원님... 이 건에 대해서 베르그만을 완전히 신뢰 할 수 없다고 생각합니다.
-Param/Value/974EB017=보안 카메라 확보가 1개 남았다.
+Param/Value/974EB017=1 more security camera to go.
 Param/Value/97707086=You're coming with us Doctor.
 Param/Value/9784B3C9=<s val="BriefingHanText">사상자: 391,137</s>
 Param/Value/97B4CF43=이거로군. 여길 방어하고 두 명은 발전기 권한을 탈취해
 Param/Value/97B832BE=큰놈이 오는구만.
 Param/Value/97BA6CAF=<c val="FFFFFF">Shop Requirement:</c><n/><c val="FFFF00">5000 XP</c>
+Param/Value/97FCA790=</c>
 Param/Value/98459BD5=<s val="BriefingHanText">(통신 복구됨...)</s>
 Param/Value/9896D1D2=<s val="InfoPaneHeroRank">(전송 방해됨...)</s>
 Param/Value/98AE5903=<s val="InfoPaneHeroRank">(트럭이 파괴됐습니다...)</s>
@@ -4885,6 +4886,7 @@ Param/Value/98CC211C=<s val="BriefingHanText">(감염충 1기 남음..)</s>
 Param/Value/9903C46A=<s val="InfoPaneHeroRank">B루트 : - 채굴지 제어를 복구하고 헬륨-3을 처리하기</s>
 Param/Value/990943B5=<s val="BriefingHanText">(타나카 박사가 성공적으로 탈출했습니다...)</s>
 Param/Value/994123F6=근처의 요새가 방어하기 좋은 곳이군.
+Param/Value/995C2DF4=.</n>생체 아이디: 
 Param/Value/99B5F70D=이 세포 구조체는 소화기에 면역이군. 칼로 난도질 해버리자.
 Param/Value/99C9601E=지하 구역에서 본 것들이 내 부하들에게 상처를 입혔다.
 Param/Value/99D46EAC=(에레보스가 재생 외피를 잃었습니다...)
@@ -4909,7 +4911,7 @@ Param/Value/9C362C62=HAL
 Param/Value/9C64BA34=우리는 밖에 무엇이 있는지 모른다.</n>더 효과적으로 싸울 수 있도록 능력을 향상시켜라.
 Param/Value/9D1AD2FF=아폴로의 시민을 구조해라. 그들을 대피소로 이동시켜라.
 Param/Value/9D226B1A=미안... 합니다...
-Param/Value/9D2C0E2F=목표가 무력화 됐다.
+Param/Value/9D2C0E2F=대상 무력화됨
 Param/Value/9D795DCA=맹독충들이 접근한다!
 Param/Value/9DAA9819=탈출 지점으로 이동해!
 Param/Value/9DAEEBF7=격납고 문을 봉쇄해야해. 뭔가가 그 안에서 자라고 있어.
@@ -5000,7 +5002,7 @@ Param/Value/ACC6387D=저런놈이 얼마나 더 있는걸까?
 Param/Value/AD49B184=<s val="GlueButton">
 Param/Value/AD6DE3C6=우리 전선이 돌파당했다! 브로큰 에로우!
 Param/Value/AD923496=당신의 전투복이 합선 되었습니다. 엔지니어가 당신의 전투복을 수리 할수 있습니다.
-Param/Value/ADA92E45=<lang rule="jongsung">이,가</lang><c val="FF0000"> 에 의해 소멸되었습니다.
+Param/Value/ADA92E45=<lang rule="jongsung">이,가<c val="FF0000"> 에 의해 소멸되었습니다.
 Param/Value/ADEF0862=성과 보너스 1XP가 추가로 지급됩니다.
 Param/Value/AEC7D830=모든 선택이 고려됐습니다. 무력화가 논리적인 선택입니다.
 Param/Value/AF9FAF8F=다들 괜찮나? 일단 상처부터 치료하도록 하자.
@@ -5031,7 +5033,7 @@ Param/Value/B3B45980=다시 보니 기쁩니다, 중위님.
 Param/Value/B41BEB9B=생존하기 위해 함께 행동해야 합니다.
 Param/Value/B4A4C624=찾았다!
 Param/Value/B4CBD119=분명 다른 플랫폼에 중요 기능들을 옮길 수단을 찾은겁니다.
-Param/Value/B4E088A7=명심해, 고철 처리장쪽의 문 또한 열 수 있어. 하지만 다른길을 찾는게 아무래도 안전할꺼야. 그 곳엔 좁은 공간이 너무 많으니까.
+Param/Value/B4E088A7=명심하세요, 고철 처리장 문 또한 열 수 있습니다. 하지만 다른길을 찾는게 아무래도 안전할껍니다. 그 곳엔 좁은 공간이 너무 많으니까요.
 Param/Value/B4E20E81=
 Param/Value/B54DE278=모든 감염충을 제거하라 (
 Param/Value/B562184C=이 시설을 복구하려면 나에게 좋은 생각이 있어.
@@ -5085,7 +5087,7 @@ Param/Value/BD67DDD0=
 Param/Value/BD76034D=미션 진행 지연으로 인한<c val="FF0000">-1 레이팅</c>
 Param/Value/BDA42EE5=영웅과 펫이 죽으면 관전만 가능하게 됩니다.
 Param/Value/BDE3C18F=(에일레이티아가 여왕으로 변이하기 시작 했다...)
-Param/Value/BE83CAAC=군사기지로 모두 모이세요.
+Param/Value/BE83CAAC=군사기지로 모두 모인다.
 Param/Value/BEC11F18=아폴로 전역에 5마리의 감염충이 있는데, 이는 적의 숫자를 제어하는 능력이 있는것으로 보입니다. 이것을 죽이면 감염자 공격빈도가 현저하게 줄어들 것입니다.
 Param/Value/BEFDC6B7=</c><c val="F4D72B">는 우연치 않게 </c><c val="FF0000">에게 죽었습니다.
 Param/Value/BF4FE9A7=<s val="BriefingHanText">지시: 감염 탈출선</s>
@@ -5106,8 +5108,9 @@ Param/Value/C16ADD41=맞으면서 싸우지 마세요! 타르타로스는 강한
 Param/Value/C17E81A3=</c>) (<c val="F1D845">
 Param/Value/C21BD67D=<c val="0080FF">고유 ID 저장 중... </c>
 Param/Value/C226EB8D=무기고에서 무기와 탄약을 회수하기
-Param/Value/C22C6D9F=구조한 민간인들을 동쪽에 있는 격리 구역으로 대피시켜!
+Param/Value/C22C6D9F=Bring the civilians to the Containment Facility east of here.
 Param/Value/C24E98F7=생태관을 봉인하라. 2명의 인원이 있어야 생태관의 봉인 절차를 시행 할 수 있다. 이러면 잠시 동안 좀비들은 지하구역에 가둘수 있을 것이다..
+Param/Value/C290D501=
 Param/Value/C2BC1258=임무 보너스 +2 XP
 Param/Value/C2DF0BE8=반복한다, 알파 중대가 긴급 탈출을 요청한다!
 Param/Value/C2F1C418=중위님 말 들었지? 가자고.
@@ -5138,7 +5141,7 @@ Param/Value/C6D3FF88=계속 달려. 저놈이 따라 잡고 있어.
 Param/Value/C6FDB822=Game Over. Find us on Discord for regular updates. Search 'NOTD Official'.
 Param/Value/C7373C86=
 Param/Value/C7813FD7=(크로노스가 <c val="FF0000">파멸</c>을 준비합니다...)
-Param/Value/C79D92C1=30초 후에 잠금을 해제 하겠습니다. 대비해 주세요.
+Param/Value/C79D92C1=You have 30 seconds to set up before I release the locks.
 Param/Value/C7CA12A0=<s val="GlueButton">팁: <c val="BEE916">
 Param/Value/C7D868A4=우린 지원군과 합류해야해.
 Param/Value/C7E4B053=안좋은 예감이 드는군...
@@ -5176,7 +5179,7 @@ Param/Value/CD5B26BE=무기고에서 무기와 탄약 회수하기
 Param/Value/CDB4532A=<s val="GlueButton"><c val="F4D72B">모션 센서가 반짝이는게 크리스마스 트리 같구만!, 공격이 빠르게 온다. 대비해!</c></s>
 Param/Value/CDBBA6C1=너는 UGC 조항 11번을 위반했다.
 Param/Value/CE164DAC=
-Param/Value/CE2186ED=위험! 여왕으로 부터 멀리 도망가세요.
+Param/Value/CE2186ED=위험! 여왕으로 부터 멀어지세요.
 Param/Value/CE2E2FF6=베르그만 박사의 위치 표시
 Param/Value/CE3756CA=
 Param/Value/CEEBC8A4=<s val="BriefingHanText">(다나카 박사가 치명상을 입었습니다!)</s>
@@ -5214,6 +5217,7 @@ Param/Value/D33799C1=(보안 제어 권한 탈취중...)
 Param/Value/D340B464=죽으면 부활할 수 없습니다.
 Param/Value/D3964E51=성과 보너스! 2 XP가 추가로 지급됩니다.
 Param/Value/D3B2CA55=상등준위 후세인
+Param/Value/D3E5697B=(여왕이 귀를 찢는 비명을 지르려고 한다...)
 Param/Value/D40821C3=가 다음 계급으로 진급함 <c val="EDC22E">
 Param/Value/D4608DF2= +12 XP: 화학물질 봉인 완료
 Param/Value/D4674EA9=아폴로 내부에서 생존자를 찾기
@@ -5256,7 +5260,7 @@ Param/Value/DAECF587=<c val="FF0000">인벤토리 숨기기</c> <c val="FFFFFF">
 Param/Value/DB2B3493=당신은 안전합니다. 따라오세요.
 Param/Value/DB2E4586=<s val="BriefingHanText">(격납고 출입문 개방됨..)</s>
 Param/Value/DB4A1AB6=야전 사령관 김 
-Param/Value/DB690FF7=블랙 옵스는 은폐 기술을 사용합니다. 열상 감지기나 지상조명탄을 이용해 찾으세요.
+Param/Value/DB690FF7=블랙 옵스는 은폐를 사용해. 열상 감지기나 지상조명탄을 이용해 찾아야해.
 Param/Value/DB6F4B62=우리 단거리 센서에 장해가 있군. 어떤 큰게 막고 있는게 분명해.
 Param/Value/DBA28A6B=단거리 감지기에 무언가 잡혔다...
 Param/Value/DBA62FE1=</c></s>
@@ -5299,7 +5303,7 @@ Param/Value/E0A4248A=정말 못생긴 괴물이구만.
 Param/Value/E0A875B6=
 Param/Value/E12BC6D4=우리는 감염충 하나를 제거 했다. 저놈들이 좀비들을 만들고 있어, 찾아서 모두 사살한다.
 Param/Value/E12D43BE=전부 살지는 못했습니다..
-Param/Value/E13A28B5=일단 시작하면 되돌릴수 없소.
+Param/Value/E13A28B5=한번 시작하면 되돌릴수 없소.
 Param/Value/E14D6B71=저 놈들을 사살 하지 않으면 적의 공세에 우리가 밀릴꺼다.
 Param/Value/E1703520=더 좋은 선택지가 없는것 같군. 우리가 뭘 해야할지 말해보시오.
 Param/Value/E19DF915=전송 파일 다운로드 완료
@@ -5320,19 +5324,19 @@ Param/Value/E405D451=당신의 진행 사항은 매 게임마다 자동으로 �
 Param/Value/E461E750=상황은 통제 하에 있다. 우린 할 수 있어.
 Param/Value/E4DFE6B3=<s val="InfoPaneHeroRank">
 Param/Value/E51F85FC=전차들이 도착했다. 이 친구들이 강한 지원을 해줄꺼다.
-Param/Value/E551D186=<s val="InfoPaneHeroRank">(타나카 박사가 콘솔을 동작 중...)</s>
+Param/Value/E551D186=<s val="InfoPaneHeroRank">(다나카 박사가 콘솔을 동작 중...)</s>
 Param/Value/E5BA10F6=데이터 전송이 끝날때 까지 위치를 사수 하기
 Param/Value/E6187E1A=델타-1 수송선에 생존자가 있을 수도 있습니다.
 Param/Value/E62A0C52=</n><s val="Swarm_RegularXSmall"><c val="FF0000">스탯, 무기개조 능력 잠금.</c></s>
 Param/Value/E658C7CF=좋았어. 아폴로 정문의 잠금을 해제했다.
 Param/Value/E69CF360=...죽은 후에 말이지.
-Param/Value/E6AD569D=생태관 D의 모든 좀비를 제거하라.
+Param/Value/E6AD569D=생태관 D의 모든 좀비를 사살하라.
 Param/Value/E6C62A41=시체들의 밤 : 클래식
 Param/Value/E6C7544B=</c>) (<c val="F1D845">
 Param/Value/E6F00E7C=공중에서 놈들이 날아온다.
 Param/Value/E6FB466C=
 Param/Value/E7B331C2=모든 팀원이 준비된 상태에서 육각지점에 올라가 미션을 진행하세요.
-Param/Value/E7C7632E=이 시설이 꺼지면 지구는 어둠에 잠길 겁니다. 당신도 알고 있잖습니까.
+Param/Value/E7C7632E=이 시설이 꺼지면 지구는 어둠에 잠길껍니다. 당신도 알고 있잖습니까.
 Param/Value/E7F7908A=<s val="BriefingHanText">(컴퓨터 접속  중...)</s>
 Param/Value/E820F84B=거의 모두가 죽었고 우린 빠져 나갈 방법을 찾고있습니다.
 Param/Value/E829401C=(생태관 봉인됨..)
@@ -5345,19 +5349,19 @@ Param/Value/E939CB1C=<s val="GlueButton">HAL : <c val="F4D72B">경고! 잠복한
 Param/Value/E94E0C6A=통신탑으로 향하라
 Param/Value/E95917BD=알겠다.
 Param/Value/E9845FDB=: <c val="F4D72B">
-Param/Value/E99CE20A=<s val="InfoPaneHeroRank">구출한 시민 :
+Param/Value/E99CE20A=<s val="InfoPaneHeroRank">구출한 시민:
 Param/Value/E9ABE14F=(제우스와 레토가 미쳐 날뜁니다..)
 Param/Value/E9CE8414=너희 팀에게 거의 모든 아폴로 보안문에 접근 가능한 보안 증명을 주지.
 Param/Value/E9E613DE=카메라 주변으로 다가가 카메라를 확보하세요. 모든 카메라가 확보되면 시야를 제공받습니다.
 Param/Value/E9EAADCC=<s val="ChatBar">블랙 옵스: <c val="F4D72B">목표 포착.</c></s>
-Param/Value/E9F81BB4=데메테르의 정신 억압에서 벗어나려면 저놈의 시야로 들어가야해!
+Param/Value/E9F81BB4=데메테르의 정신 억압에서 벗어나려면 저놈의 시야로 들어가야한다!
 Param/Value/EA0D34CA=기대하십쇼.
-Param/Value/EA1145DB=위험! 여왕으로 부터 멀리 도망가세요.
+Param/Value/EA1145DB=위험해! 여왕에게서 물러나
 Param/Value/EA2FA3C7=I want to be touched by its noodly appendage.
 Param/Value/EA2FFB10=<s val="BriefingHanText">(아폴로 내의 포탑을 제어 시작...)</s>
 Param/Value/EA780536=또인가. 조심해라.
 Param/Value/EA8C7D2D=아폴로 내부의 생존자들을 수색하시오
-Param/Value/EACCCFD6=성과 보너스! 3 XP가 추가로 지급됩니다.
+Param/Value/EACCCFD6=성과 보너스! 3XP가 추가로 지급됩니다.
 Param/Value/EAE4AD6B=탄약을 아끼기 위해 광역 기술을 사용하십시오
 Param/Value/EC3FECA5=(당신은 타나카의 목에 있는 복종 임플란트를 주목했다...)
 Param/Value/EC412052=팀 블루베리 제작
@@ -5365,11 +5369,11 @@ Param/Value/EC54227A=</c>)
 Param/Value/EC6EB324=팬텀 6, 델타-1에 시민들을 태웠고 탈출이 필요하다.
 Param/Value/EC783BDB=세스 처리 +3 XP
 Param/Value/EC7D13E1=<s val="InfoPaneHeroRank"><c val="FF0000">
-Param/Value/ECA03751=그 놈은 아주 쓸만한 녀석입니다. 중동에서 함께 복무를 했었지요.
+Param/Value/ECA03751=그는 유용한 사람입니다. 나는 Mid-East 에서 그에게 봉사했습니다.
 Param/Value/ECA6DA89=<s val="InfoPaneHeroRank">SELECTION<n/>A - 아폴로를 파괴하고 감염을 제거<n/>B - 채굴 제어장치를 재작동하여 헬륨-3 생산시설을 복구</s>
 Param/Value/ECB0A6AF=<s val="InfoPaneHeroRank">
 Param/Value/ECD77C36=왜 그는 우리로 부터 도망가는 거지?
-Param/Value/ECDA2C2E=아폴로는 완전히 함락됐습니다.
+Param/Value/ECDA2C2E=아폴로는 완전히 함락되었습니다.
 Param/Value/ED11F396=
 Param/Value/ED5A6EF5=승리 보너스 +40 XP
 Param/Value/ED77EF38=여기서 빨리 도망쳐야 해!
@@ -5456,7 +5460,7 @@ Param/Value/FBBC0ECA=임무 진행 지연으로 인한 <c val="FF0000">-1 레이
 Param/Value/FBD0B825=<s val="HeaderExtendedTemplate">스텟</s>
 Param/Value/FC0F456B=(기록 완료...)
 Param/Value/FC3FE213=<s val="GlueButton">
-Param/Value/FC9DE0D9=준비하세요. 알 수 없는 위협이 갱도 안에 도사리고 있습니다.
+Param/Value/FC9DE0D9=준비해. 알 수 없는 위협이 갱도에 도사리고 있다.
 Param/Value/FD3063C2=데이모스를 사살하라
 Param/Value/FD6E91D5=인벤토리
 Param/Value/FD7B4E49=<s val="InfoPaneHeroRank">(시민 구출로 2 XP가 수여됨)</s>
@@ -5547,7 +5551,7 @@ UI/Morphing=Morphing
 UI/ObserverCameraButtonTip=Marine Camera
 UI/PingTip=전술지도에 다른 해병들이 볼 수 있는 신호를 표시합니다
 UI/Player=해병
-UI/PlayerMessage/HasLeftTheGame=%player% 이(가) 임무를 포기하고 나갔습니다.
+UI/PlayerMessage/HasLeftTheGame=%player% has left mission control
 UI/PlayerMessage/ResourceSplit=
 UI/PlayerMessage/WasDefeated=
 UI/PlayerMessage/WasVictorious=
@@ -5716,7 +5720,6 @@ Unit/Name/InfestorKidneyHighlightTooltip=AP 탄약
 Unit/Name/InfestorTerran=감염된 해병
 Unit/Name/InfestorTerran2=감염된 해병
 Unit/Name/IonCannon=궤도 레이저
-Unit/Name/ItemDummy=Item Dummy
 Unit/Name/Ivan=오길비
 Unit/Name/IvanPlushenko=이반 퓰루셴코
 Unit/Name/Ivax=이박스
@@ -5872,8 +5875,6 @@ Unit/Name/ZerglingPet=저글링
 Unit/Name/Zeus=제우스
 Unit/Name/ZombieBroodMother=무리 어미
 Unit/Name/ZombieBroodMother2=무리 어미
-Unit/Name/ZombieCreep=좀비 크립
-Unit/Name/ZombieCreepLarge=좀비 크립 (대형)
 Unit/Name/ZombieLevel1=좀비
 Unit/Name/ZombieLevel12=좀비
 Unit/Name/ZombieLevel2=좀비
@@ -6014,14 +6015,14 @@ UserData/CommunicationTowerCompletionMessages/Completion_Message=우리가 찾�
 UserData/CommunicationTowerCompletionMessages/Completion_Message_001=지구에 전송되기 전에 군 위성에 의해서 저지 되었어. 누군가 이 상황을 알리려는걸 원하지 않은 것 같아.
 UserData/CommunicationTowerCompletionMessages/Completion_Message_002=이 로그는 UGC가 바이러스 발생을 이미 알고 있었을 거라는걸 증명하는군. 이 바이러스를 제압하지 못하고 우리를 보낸거였어
 UserData/CustomNames/ArcanePariah_Name=Hunter of Apollo
-UserData/DeathTexts/Agron_Death Message=<lang rule="jongsung">은,는</lang><c val="FF0000"> 아그론 </c>에게 내장이 흩뿌려졌습니다.
-UserData/DeathTexts/Baneling_Death Message=<lang rule="jongsung">은,는</lang><c val="FF0000"> 베인링 </c>에게 녹아 버렸습니다.
-UserData/DeathTexts/Beastling_Death Message=<lang rule="jongsung">은,는</lang><c val="FF0000"> 비스트링 </c>에게 녹아 버렸습니다.
-UserData/DeathTexts/Black Ops_Death Message=<lang rule="jongsung">은,는</lang><c val="FF0000"> Black Ops </c>에게 암살 당했습니다.
-UserData/DeathTexts/Ghoul_Death Message=<lang rule="jongsung">은,는</lang><c val="FF0000"> 구울 </c>에게 게걸스럽게 해체 당했습니다..
-UserData/DeathTexts/Infested Marine_Death Message=<lang rule="jongsung">은,는</lang><c val="FF0000"> 감염된 해병 </c>에게 총살 당했습니다.
-UserData/DeathTexts/Seth_Death Message=<lang rule="jongsung">은,는</lang><c val="FF0000"> 세스 </c>에게 기화당했습니다.
-UserData/DeathTexts/Slasher_Death Message=<lang rule="jongsung">은,는</lang><c val="FF0000"> Slasher </c>에게 내장이 흩뿌려졌습니다.
+UserData/DeathTexts/Agron_Death Message=<lang rule="jongsung">은,는<c val="FF0000"> 아그론 </c>에게 내장이 흩뿌려졌습니다.
+UserData/DeathTexts/Baneling_Death Message=<lang rule="jongsung">은,는<c val="FF0000"> 베인링 </c>에게 녹아 버렸습니다.
+UserData/DeathTexts/Beastling_Death Message=<lang rule="jongsung">은,는<c val="FF0000"> 비스트링 </c>에게 녹아 버렸습니다.
+UserData/DeathTexts/Black Ops_Death Message=<lang rule="jongsung">은,는<c val="FF0000"> Black Ops </c>에게 암살 당했습니다.
+UserData/DeathTexts/Ghoul_Death Message=<lang rule="jongsung">은,는<c val="FF0000"> 구울 </c>에게 게걸스럽게 해체 당했습니다..
+UserData/DeathTexts/Infested Marine_Death Message=<lang rule="jongsung">은,는<c val="FF0000"> 감염된 해병 </c>에게 총살 당했습니다.
+UserData/DeathTexts/Seth_Death Message=<lang rule="jongsung">은,는<c val="FF0000"> 세스 </c>에게 기화당했습니다.
+UserData/DeathTexts/Slasher_Death Message=<lang rule="jongsung">은,는<c val="FF0000"> Slasher </c>에게 내장이 흩뿌려졌습니다.
 UserData/DeathTexts/Zombie Level 1_Death Message=<lang rule="jongsung">은,는</lang><c val="FF0000"> 좀비 </c>에게 산채로 잡아 먹혔습니다.
 UserData/DeathTexts/Zombie Level 2_Death Message=<lang rule="jongsung">은,는</lang><c val="FF0000"> 좀비 </c>에게 산채로 잡아 먹혔습니다.
 UserData/DeathTexts/[Default]_Death Message=<lang rule="jongsung">은,는</lang><c val="FF0000"> 좀비 </c>에게 산채로 잡아 먹혔습니다.
@@ -6299,7 +6300,6 @@ UserData/SurvivalWaveNames/Wave 18_Title=Wave 18
 UserData/SurvivalWaveNames/Wave 18_Wave Name=Fast & Furious
 UserData/SurvivalWaveNames/Wave 19_Title=Wave 19
 UserData/SurvivalWaveNames/Wave 19_Wave Name=I will Cut You
-#REF!
 UserData/SurvivalWaveNames/Wave 1_Wave Name=Wave 1
 UserData/SurvivalWaveNames/Wave 20_Wave Name=Boss 2 - Seth & Ivax
 UserData/SurvivalWaveNames/Wave 21_Wave Name=Bullseye
@@ -6350,7 +6350,7 @@ UserData/TalentTreeSkeleton/Tree 2 Tier 2 Talent 2_Text=0/2
 UserData/TalentTreeSkeleton/Tree 2 Tier 3 Talent 1_Text=0/1
 UserData/TalentTrees/Assault_Headers=<s val="HelpPanelListBoxItemTitle">화력</s>
 UserData/TalentTrees/Assault_Headers_001=<s val="HelpPanelListBoxItemTitle">보호</s>
-UserData/TalentTrees/Assault_Talent Tootips=<s val="AchievementFrameName">집중 포화</s><n/>7초 동안 강습병의 공격속도와 치명타 확률(치명타 스킬 습득시), 시야 범위가 증가하고 이동속도가 5% 감소합니다.<n/>레벨 1 - +50% 공격속도. +5% 치명타 확률.<n/>레벨 2 - +100% 공격속도. +10% 치명타 확률.<n/>레벨 3 - +150% 공격속도. +15% 치명타 확률.<n/>
+UserData/TalentTrees/Assault_Talent Tootips=<s val="AchievementFrameName">집중 포화</s><n/>7초 동안 강습병의 공격속도와 치명타 확률(치명타 스킬 습득시), 시야 범위가 증가하고 이동속도가 5% 감소합니다.<n/>레벨 1 - +50% 공격속도. +5% 치명타 확률.<n/>Level 2 - +100% 공격속도. +10% 치명타 확률.<n/>레벨 3 - +150% 공격속도. +15% 치명타 확률.<n/>
 UserData/TalentTrees/Assault_Talent Tootips_001=<s val="AchievementFrameName">치명타 <n/>(패시브)</s><n/>레벨 1 - 10% 확률로 2배의 피해 <n/>레벨 2 - 20% 확률로 2배의 피해<n/>레벨 3 - 30% 확률로 2배의 피해<n/>
 UserData/TalentTrees/Assault_Talent Tootips_002=<s val="AchievementFrameName">탄창 연결<n/>(패시브)</s><n/>Level 1 - 탄약 용량이 80으로 상승합니다. 재장전에 탄창 2개가 소모됩니다.,<n/>레벨 2 - 탄약 용량이 120으로 상승합니다. 재장전에 탄창 3개가 소모됩니다.<n/><n/><c val="F4D72B">티어 2 스킬을 해금하려면 이전 단계에 스킬포인트 4개를 투자해야 합니다</c>
 UserData/TalentTrees/Assault_Talent Tootips_003=<s val="AchievementFrameName">광분</s><n/>10초 동안 강습병의 피해량이 상승하고 치명타 스킬을 받은 유닛에 1초 동안 감속 효과가 나타납니다.<n/>레벨 1 - +20% 추가피해<n/>레벨 2 - +40% 추가피해<n/><n/><c val="F4D72B">티어 2 스킬을 해금하려면 이전 단계에 스킬포인트 4개를 투자해야 합니다</c>
@@ -6374,7 +6374,7 @@ UserData/TalentTrees/Chemical Expert_Talent Tootips_008=<s val="AchievementFrame
 UserData/TalentTrees/Chemical Expert_Talent Tootips_009=<s val="AchievementFrameName">VRL-772 </s><n/>바이러스 제거 레이저(VRL)-772는 강력한 자외선 스펙트럼 빛으로 바이러스를 제거하는 새로운 의료 기술입니다. VRL은 직선으로 발사되어 150의 피해를 주며, 질병 스택 당 50의 추가 피해를 가합니다. 그리고 대상을 4초간 무력화시키며 20%만큼 증가된 피해를 받게 합니다.<n/><n/>VRL 레이저 영역권의 영웅 해병은 모든 질병 (중독, 정신착란, 실명, 감염)이 치유되며, 10초간 25% 공격 및 이동속도 보너스를 얻습니다. VRL은 감염되지 않은 유닛이나 기계 유닛에게는 무해합니다.<n/><n/><c val="F4D72B">티어 3 스킬을 해금하려면 이전 단계에 스킬포인트 8개를 투자해야 합니다</c>
 UserData/TalentTrees/Commando_Headers=<s val="HelpPanelListBoxItemTitle">작전</s>
 UserData/TalentTrees/Commando_Headers_001=<s val="HelpPanelListBoxItemTitle">델타</s>
-UserData/TalentTrees/Commando_Talent Tootips=<s val="AchievementFrameName">강화 사격</s> <n/>15초동안 공격력을 증가시킵니다.<n/>레벨 1 -  +50% 공격력<n/>레벨 2 -  +100% 공격력<n/>레벨 3 -  +150% 공격력<n/><n/><c val="FF0000">반작용으로 15초동안 -30% 공격력</c>.
+UserData/TalentTrees/Commando_Talent Tootips=<s val="AchievementFrameName">강화 사격</s> <n/>15초동안 공격력을 증가시킵니다.<n/>레벨 1 -  +50% 공격력<n/>레벨 2 -  +100% 공격력<n/>Level 3 -  +150% 공격력<n/><n/><c val="FF0000">반작용으로 15초동안 -30% 공격력</c>.
 UserData/TalentTrees/Commando_Talent Tootips_001=<s val="AchievementFrameName">아드레날린</s><n/>매 공격시 공격속도를 증가시킵니다. 20초간 지속되며 30회까지 중첩됩니다.<n/>레벨 1 - +2% 공격속도<n/>레벨 2 - +4% 공격속도<n/>레벨 3 - +6% 공격속도
 UserData/TalentTrees/Commando_Talent Tootips_002=<s val="AchievementFrameName">시간 대여</s><n/>특공대원이 체력을 소모해 에너지를 50 회복합니다.<n/>레벨 1 - 체력 80 소모<n/>레벨 2 - 체력 40 소모<n/><n/><c val="F4D72B">티어 2 스킬을 해금하려면 이전 단계에 스킬포인트 4개를 투자해야 합니다.</c>
 UserData/TalentTrees/Commando_Talent Tootips_003=<s val="AchievementFrameName">무기 전문가<n/>(패시브)</s><n/>특공대원의 공격력이 증가합니다. 강화 사격중이면 추가로 증가합니다.<n/>레벨 1 - +10% 공격력.강화 사격시 +5% 공격력.<n/>레벨 2 - +20% 공격력.강화 사격시 +10% 공격력.<n/><n/><c val="F4D72B">티어 2 스킬을 해금하려면 이전 단계에 스킬포인트 4개를 투자해야 합니다.</c>
@@ -6422,7 +6422,7 @@ UserData/TalentTrees/Flamethrower_Talent Tootips_008=<s val="AchievementFrameNam
 UserData/TalentTrees/Flamethrower_Talent Tootips_009=<s val="AchievementFrameName">신뢰</s><n/>스킬 시전시 50%의 HP와 모든 실드를 깎고 7 범위의 모든 적에게 777피해와 7초의 기절 상태를 부여하고 아군의 HP를 35 회복 시킵니다. 화염방사병이 가진 3스택의 독과 출혈을 제거하고 10초 동안 방어력 10을 얻습니다.<n/><n/><c val="F4D72B">티어 3 스킬을 해금하려면 이전 단계에 스킬포인트 8개를 투자해야 합니다</c>
 UserData/TalentTrees/Forward Observer_Headers=<s val="HelpPanelListBoxItemTitle">화력 지원</s>
 UserData/TalentTrees/Forward Observer_Headers_001=<s val="HelpPanelListBoxItemTitle">기동 보병</s>
-UserData/TalentTrees/Forward Observer_Talent Tootips=<s val="AchievementFrameName">포격 지원</s> <n/>3의 범위에 포격을 가합니다. 거대 유닛과 중장갑에 50% 추가 피해.<n/>레벨 1 - 발 당 75 피해.<n/>레벨 2 - 발 당 125 피해.<n/>레벨 3-  발 당 180 피해.<n/><n/>포격 지속시간 8초에 한 발당 2의 범위를 가집니다.<n/><n/><c val="FF0000">경고!: 아군에게 치명적인 피해를 입힐수 있습니다.</c>
+UserData/TalentTrees/Forward Observer_Talent Tootips=<s val="AchievementFrameName">포격 지원</s> <n/>3의 범위에 포격을 가합니다. 거대 유닛과 중장갑에 50% 추가 피해.<n/>레벨 1 - 발 당 75 피해.<n/>레벨 2 - 발 당 150 피해.<n/>레벨 3-  발 당 250 피해.<n/><n/>포격 지속시간 8초에 한 발당 2의 범위를 가집니다.<n/><n/><c val="FF0000">경고!: 아군에게 치명적인 피해를 입힐수 있습니다.</c>
 UserData/TalentTrees/Forward Observer_Talent Tootips_001=<s val="AchievementFrameName">루나 부스터 (패시브)</s><n/>포격 임무 사용시 실제 탄착 간격을 줄여줍니다.<n/>레벨 1 - 1.5 초 감소<n/>레벨 2 - 3 초 감소<n/>레벨 3 - 4.5 초 감소<n/>
 UserData/TalentTrees/Forward Observer_Talent Tootips_002=<s val="AchievementFrameName">충격파 포탄</s><n/>3 범위 안에 목표를 기절시키는 포탄을 발사합니다. <n/>레벨 1 - 각 포탄이 방어력 2를 감소시키고 2.5초 동안 기절시킴 (중첩 불가).<n/>레벨 2 - 각 포탄이 방어력 4를 감소시키고 5초 동안 기절시킴 (중첩 불가).<n/><n/>8초 동안 포격이 지속되고 영웅 속성 유닛은 효과가 반감됩니다.<n/><n/><c val="FF0000">경고!: 아군에게도 효과가 있습니다..</c><n/><c val="F4D72B">티어 2 스킬을 해금하려면 이전 단계에 스킬포인트 4개를 투자해야 합니다</c>
 UserData/TalentTrees/Forward Observer_Talent Tootips_003=<s val="AchievementFrameName">공습</s><n/>망령 3기가 7 범위 안에 18개의 폭탄을 떨어뜨립니다. 폭탄은 각각 피해를 가하며 3초 동안 범위 안의 유닛을 기절시킵니다.<n/>레벨 1 - 폭탄 한 발 당 75 피해<n/>레벨 2 - 폭탄 한 발 당 150피해<n/><n/><c val="FF0000">경고!: 아군에게 피해를 가할수 있습니다.</c><n/><c val="F4D72B">티어 2 스킬을 해금하려면 이전 단계에 스킬포인트 4개를 투자해야 합니다</c>
@@ -6494,8 +6494,8 @@ UserData/TalentTrees/Recon_Talent Tootips_008=<s val="AchievementFrameName">섬�
 UserData/TalentTrees/Recon_Talent Tootips_009=<s val="AchievementFrameName">재충전</s><n/>정찰병의 모든 스킬 재사용 시간을 리셋하고 에너지와 실드를 30 회복합니다.<n/><n/><c val="F4D72B">Tier 3 talents require 8 talent points in the tree to unlock</c>
 UserData/TalentTrees/Rifleman_Headers=<s val="HelpPanelListBoxItemTitle">전투</s>
 UserData/TalentTrees/Rifleman_Headers_001=<s val="HelpPanelListBoxItemTitle">생존</s>
-UserData/TalentTrees/Rifleman_Talent Tootips=<s val="AchievementFrameName">치명타 <n/>(Passive)</s><n/>레벨 1 - 10% 확률로 2배의 피해 <n/>레벨 2 - 20% 확률로 2배의 피해<n/>레벨 3 - 30% 확률로 2배의 피해<n/>
-UserData/TalentTrees/Rifleman_Talent Tootips_001=<s val="AchievementFrameName">사격 숙련 (패시브)</s><n/>소총수가 점차적으로 사격에 숙련됩니다. 스킬 레벨업시 집중 사격과 XM-35 유탄발사기 스킬에 추가 효과가 주어집니다.스킬 레벨이 올라 갈 때 마다 집중 사격의 에너지 소모량이 1씩 증가합니다.<n/>레벨 1 - +<d ref="3 * 1" precision ="2"/>%의 공격력과 +<d ref="15 * 1" precision ="2"/>%의 공격속도가 개선됩니다. 지속시간 동안 XM-35 수류탄의 효과 범위가 <d ref="0.5 * 1" precision ="2"/> 만큼 증가합니다.<n/>레벨 2 - +<d ref="3 * 2" precision ="2"/>%의 공격력과 +<d ref="15 * 2" precision ="2"/>% 공격속도가 개선됩니다. 지속시간 동안 XM-35 수류탄의 효과 범위가 <d ref="0.5 * 2" precision ="2"/> 만큼 증가합니다.<n/>레벨 3 - +<d ref="3 * 3" precision ="2"/>%의 공격력과 +<d ref="15 * 3" precision ="2"/>%의 공격속도가 개선됩니다. 지속시간 동안 XM-35 수류탄의 효과 범위가 <d ref="0.5 * 3" precision ="2"/> 만큼 증가합니다.<n/>
+UserData/TalentTrees/Rifleman_Talent Tootips=<s val="AchievementFrameName">치명타 <n/>(Passive)</s><n/>레벨 1 - 10% 확률로 2배의 피해 <n/>레벨 2 - 20% 확률로 2배의 피해<n/>Level 3 - 30% 확률로 2배의 피해<n/>
+UserData/TalentTrees/Rifleman_Talent Tootips_001=<s val="AchievementFrameName">사격 숙련 (패시브)</s><n/>소총수가 점차적으로 사격에 숙련됩니다. 스킬 레벨업시 집중 사격과 XM-35 유탄발사기 스킬에 추가 효과가 주어집니다.스킬 레벨이 올라 갈 때 마다 집중 사격의 에너지 소모량이 1씩 증가합니다.<n/>레벨 1 - +<d ref="3 * 1" precision ="2"/>% damage and +<d ref="15 * 1" precision ="2"/>% attack speed. Increases radius of Grenade by <d ref="0.5 * 1" precision ="2"/><n/>레벨 2 - +<d ref="3 * 2" precision ="2"/>% damage and +<d ref="15 * 2" precision ="2"/>% attack speed. Increases radius of Grenade by <d ref="0.5 * 2" precision ="2"/><n/>레벨 3 - +<d ref="3 * 3" precision ="2"/>% damage and +<d ref="15 * 3" precision ="2"/>% attack speed. Increases radius of Grenade by <d ref="0.5 * 3" precision ="2"/><n/>
 UserData/TalentTrees/Rifleman_Talent Tootips_002=<s val="AchievementFrameName">무기 숙련<n/>(패시브)</s><n/>재장전 속도를 단축합니다.<n/>레벨 1 - 재장전 속도 17.5% 단축. 집중 사격의 지속시간 1초 증가.<n/>레벨 2 - 재장전 속도 35% 단축. 집중 사격의 지속시간 2초 증가.<n/><c val="F4D72B">티어 2 스킬을 해금하려면 이전 단계에 스킬포인트 4개를 투자해야 합니다.</c>
 UserData/TalentTrees/Rifleman_Talent Tootips_003=<s val="AchievementFrameName">XM-35 유탄발사기</s><n/>3 범위에 피해. 경장갑에 33%추가 피해.  집중 사격이 지속되는 동안 피해범위 증가.<n/>레벨 1 - 75 피해.  소총수의 레벨이 오를때 마다 3의 피해 추가.<n/>레벨  2 - 150 피해.  소총수의 레벨이 오를때 마다 6의 피해 추가.<n/><c val="F4D72B">티어 2 스킬을 해금하려면 이전 단계에 스킬 포인트 4개를 투자해야 합니다.</c>
 UserData/TalentTrees/Rifleman_Talent Tootips_004=<s val="AchievementFrameName">블러드 러스트</s><n/>소총수의 대학살이 무아지경을 촉발시켜 그의 반사신경과 전투열을 증가시킵니다. 공격 속도와 피해가 10초 동안 50% 증가합니다. 그리고 지속시간 동안 기본 방어력을 0으로 줄입니다.<n/><c val="F4D72B">티어 3 스킬을 해금하려면 이전 단계에 스킬 포인트 8개를 투자해야 합니다.
@@ -6516,11 +6516,11 @@ UserData/TalentTrees/Technician_Talent Tootips_006=<s val="AchievementFrameName"
 UserData/TalentTrees/Technician_Talent Tootips_007=<s val="AchievementFrameName">Crawler Drone</s><n/>Technician sacrifices some of the plating of his exosuit and a healthy amount of nanites to create a Crawler Drone, search and rescue drones retooled with kinetic catapults that they use to launch debris at enemy targets. Maximum of 10.<n/>Level 1 - Crawler Drones have 60 health and deal 7 damage.<n/>Level 2 - Crawler Drones have 120 health and deal 14 damage.<n/><n/><c val="F4D72B">Tier 2 talents require 4 talent points in the tree to unlock</c>
 UserData/TalentTrees/Technician_Talent Tootips_008=<s val="AchievementFrameName">Ballistics</s><n/>Technician's modifications to the exosuit reduce recoil and increase stability, allowing an increase in expected damage and range of any weapons he equips.<n/>Level 1 - +12% weapon damage and +1 range<n/>Level 2 - +24% weapon damage and +2 range<n/><n/><c val="F4D72B">Tier 2 talents require 4 talent points in the tree to unlock</c>
 UserData/TalentTrees/Technician_Talent Tootips_009=<s val="AchievementFrameName">March of the Machines</s><n/>Putting the exosuit into overdrive and autopilot, the exosuit achieves a state of efficiency not achievable if human interaction were included. The auto-targeting system, however, is the result of on-the-fly modification by the Technician, and there are still some bugs to work out...Technician gains +300% armor & health and +100% damage. -25% attack speed and movespeed. Will attack allies if not managed. No effect on Shiva damage.<n/><n/><c val="FF0000">Warning: Technician can seriously wound friendlies when talent is active. Pay very close attention!</c><n/><n/>"You have 20 seconds to comply..."<n/><n/><c val="F4D72B">Tier 3 talents require 8 talent points in the tree to unlock</c>
-UserData/TeamKillTexts/Death Texts_Death Text=</c><lang rule="jongsung"><c val="F4D72B">은,는</lang> </c><c val="FF0000"> 에게 우연하게 도살 당했습니다
-UserData/TeamKillTexts/Death Texts_Death Text_001=</c><lang rule="jongsung"><c val="F4D72B">은,는</lang> </c><c val="FF0000"> 에게 제물로 바쳐졌습니다
-UserData/TeamKillTexts/Death Texts_Death Text_002=</c><lang rule="jongsung"><c val="F4D72B">은,는</lang> </c><c val="FF0000"> 에게 살해 당했습니다
-UserData/TeamKillTexts/Death Texts_Death Text_003=</c><lang rule="jongsung"><c val="F4D72B">은,는</lang> </c><c val="FF0000"> 에게 배신 당했습니다
-UserData/TeamKillTexts/Death Texts_Death Text_004=</c><lang rule="jongsung"><c val="F4D72B">은,는</lang> </c><c val="FF0000"> 에게 아무 사랑도 받지 못했습니다
+UserData/TeamKillTexts/Death Texts_Death Text=</c><c val="F4D72B">는 </c><c val="FF0000"> 에게 우연하게 도살 당했습니다
+UserData/TeamKillTexts/Death Texts_Death Text_001=</c><c val="F4D72B">는 </c><c val="FF0000"> 에게 제물로 바쳐졌습니다
+UserData/TeamKillTexts/Death Texts_Death Text_002=</c><c val="F4D72B">는 </c><c val="FF0000"> 에게 살해 당했습니다
+UserData/TeamKillTexts/Death Texts_Death Text_003=</c><c val="F4D72B">는 </c><c val="FF0000"> 에게 배신 당했습니다
+UserData/TeamKillTexts/Death Texts_Death Text_004=</c><c val="F4D72B">는 </c><c val="FF0000"> 에게 아무 사랑도 받지 못했습니다
 UserData/TestFunShit/Stupid_Blah=Blah Blah<n/>
 UserData/WeaponModData/Damage_Arrow_Tooltip=5% 피해
 UserData/WeaponModData/Damage_Name=피해
@@ -6632,5 +6632,6 @@ Weapon/Tip/Shiva=Shiva destroys everything within 30 radius of target area.
 Weapon/Tip/SniperRifleMini=원샷, 원킬. <n/><n/><c val="80FF00">공중유닛에 추가 데미지.</c>
 Weapon/Tip/VolatileBurstDummyBeastling=Only used against units.
 e_gameUIStringDamageVersusColon=vs %attributeType%:
-Param/Value/D3E5697B=(여왕이 귀를 찢는 비명을 지르려고 한다...)
-Param/Value/2369F6BA=위험! 여왕으로 부터 멀리 도망가세요.
+보호막 방어력 +1, 보호막+5"=
+보호막 방어력 +2, 보호막+10"=
+보호막 방어력 +4, 보호막+20"=
