@@ -1,4 +1,3 @@
-﻿#REF!=
 Abil/Name/Adrenaline=Adrenaline
 Abil/Name/AirStrike=Air Strike
 Abil/Name/AmmoFeedDummy=Ammo Feed (Dummy)
@@ -340,7 +339,8 @@ Attribute002/Value002/Name=십자 훈장 모드 꺼짐
 Attribute003/Desc=직업 선택을 어떻게 할지 설정
 Attribute003/Name=직업 선택 방식
 Attribute003/Value001/Desc=모든 인원이 셀렉과 랜덤 가능
-Attribute003/Value001/Name=표준 모드
+Attribute003/Value001/Name=표준
+Attribute003/Value002/Desc=표준 모드
 Attribute003/Value002/Name=랜덤 없음
 Attribute003/Value003/Desc=모든 인원이 랜덤 선택만 가능
 Attribute003/Value003/Name=모두 랜덤
@@ -420,7 +420,8 @@ Behavior/Name/ChemicalPlatingLevel3=화학물 장판 Lv.3
 Behavior/Name/ChemicalPlatingOxalicPoison=화학물 장판 (옥살산 독)
 Behavior/Name/ChemicalPlatingTemplate=화학물 장판 템플릿
 Behavior/Name/Chewed=Chewed
-Behavior/Name/CockpitClosed=Cockpit Closed
+Behavior/Name/Clickling=Clickling Explode
+Behavior/Name/CockpitClosed=조종석 폐쇄
 Behavior/Name/CockpitOpened=조종석 개방
 Behavior/Name/CohesionLevel1=단결 Lv.1
 Behavior/Name/CohesionLevel2=단결 Lv.2
@@ -597,7 +598,8 @@ Behavior/Name/NanosteelNetSlowLevel1=나노 강철 그물 (둔화) Lv.1
 Behavior/Name/NanosteelNetSlowLevel2=나노 강철 그물 (둔화) Lv.2
 Behavior/Name/NanosteelNetSlowLevel3=나노 강철 그물 (둔화) Lv.3
 Behavior/Name/NanosteelNetSlowTemplate=나노 강철 그물 (둔화) 템플릿
-Behavior/Name/NapalmAnimationDummy=네이팜 포격
+Behavior/Name/Napalm2=네이팜 포격
+Behavior/Name/NapalmAnimationDummy=네이팜 포격 (애니메이션 더미)
 Behavior/Name/NapalmAnimationDummyPersistent=네이팜 포격 (애니메이션 더미 지속)
 Behavior/Name/NegativePolarity=음극
 Behavior/Name/NoQuarterAirborne=무자비 (체공)
@@ -643,7 +645,8 @@ Behavior/Name/RighteousnessLevel1=정의 Lv.1
 Behavior/Name/RighteousnessLevel2=정의 Lv.2
 Behavior/Name/Safeguard=세이프 가드
 Behavior/Name/SapStun=충격 요법 (기절)
-Behavior/Name/SeekerSpawn=충격 요법 (기절)
+Behavior/Name/SapStun2=충격 요법 (기절)
+Behavior/Name/SeekerSpawn=시커 소환
 Behavior/Name/SelfDestructStun=자폭 (기절)
 Behavior/Name/SensoryConfusionCloak=감각 혼란 (은폐)
 Behavior/Name/ShadowPulse=그림자 펄스
@@ -1408,7 +1411,6 @@ Button/Name/White=흰색
 Button/Name/X1Armor=X-1 방어구
 Button/Name/X1Guardian=X1 가디언
 Button/Name/X1GuardianUpgrade=X1 가디언 강화
-Button/Name/XM222LMG=<c val="80FF80">XM222 경기관총</c>
 Button/Name/XM35GrenadeLauncher=XM-35 유탄 발사기
 Button/Name/XS4Armor=<c val="00FFFF">XS-4 방어구</c>
 Button/Name/Yellow=노란색
@@ -1890,7 +1892,6 @@ Button/Tooltip/X1GuardianLevel1=
 Button/Tooltip/X1GuardianLevel2=
 Button/Tooltip/X1GuardianLevel3=
 Button/Tooltip/X1GuardianUpgrade=Upgrades the X-1 Guardian to next version.
-Button/Tooltip/XM222LMG=<c val="80FF80">XM222 경기관총</c><n/>경기관총 툴팁.<n/>공격력: <c val="FFFFFF">20</c></n>광역 피해: <c val="FFFFFF">2.5</c><n/>재장전 시간: <c val="FFFFFF">3.5초</c><n/>장착 시간: <c val="FFFFFF">2.2초</c><n/>무게: <c val="FFFFFF">17</c>
 Button/Tooltip/XM35GrenadeLauncher=Launches a Grenade. Deals <d ref="Effect,GrenadeLevel1Damage,Amount[0] - 3"/> Damage. +33% damage to Light units. Gains larger AoE while Focus Fire is active. Gains 3 damage per level of the Rifleman.
 Button/Tooltip/XS4Armor=<c val="00FFFF">XS-4 Armor</c><n/>Adds 4 shield armor and increases maximum shield capacity by 50%.<n/>Weight: <c val="FFFFFF">15</c><n/>Credits: <c val="FFFFFF">250</c>
 Button/Tooltip/Yellow=Changes Marine color to <c val="FFFF00">Yellow</c> for all games.<n/><n/>Credits: <c val="71B8FF">5000</c>
@@ -3538,8 +3539,6 @@ Effect/Name/X1GuardianLevel2CreateUnit=X-1 Guardian Level 2 (Create Unit)
 Effect/Name/X1GuardianLevel3CreateUnit=X-1 Guardian Level 3 (Create Unit)
 Effect/Name/X3MilitaryDroneLaser2=X-3 Military Drone Laser
 Effect/Name/X3MilitaryDroneLaserDamage=X-3 Military Drone Laser (Damage)
-Effect/Name/XM222LMGCP=XM222 LMG CP
-Effect/Name/XM222LMGDamage=XM222 LMG DMG
 Effect/Name/XM814HeavyMachineGun=XM814 Heavy Machine Gun
 Effect/Name/Yamato=Gunship Gauss Cannon Launch
 Effect/Name/ZeratulBlink2=Blink (Teleport) Copy
@@ -3917,7 +3916,6 @@ Param/Value/225C21F7=박사
 Param/Value/2262CEDA=우리가 가야만 하는 곳이군.
 Param/Value/226488C6=이전에 접속한 보안 카메라들이 단거리 감시 정보를 제공합니다.
 Param/Value/22C15AFE=베르그만은 우리가 발견한 것에 열중하겠군.
-Param/Value/2369F6BA=위험! 여왕으로 부터 멀리 도망가세요.
 Param/Value/236A95F9=동쪽에서 놈들이 더 온다!
 Param/Value/2399241B=. 추방까지 1표 남았습니다.</s>
 Param/Value/23DC8EDE=밥과 만날 시간이다.</s>
@@ -3944,7 +3942,6 @@ Param/Value/271AF673=모두 괜찮나? 일단 우리는 이곳을 빠져나간�
 Param/Value/275382AF=빔을 피하세요. 필요하다면 달리셔야 합니다.
 Param/Value/2757CF11=지금 나랑 장난하는건가.
 Param/Value/275E16C1=해독 가스 방출
-Param/Value/2776FDCA=.</c>
 Param/Value/2777278B=남은 목숨 수.
 Param/Value/27B9C85A=의료도구를 사용해서 회복해.
 Param/Value/27BB3E98=IVAX에 붙어있어. 우리는 채굴시설을 사수한다,
@@ -4237,7 +4234,6 @@ Param/Value/56AE5BF6=</c>)
 Param/Value/56E0E208=생태관 A의 모든 좀비를 사살하라.
 Param/Value/571BB748=성과 보너스 2XP가 추가로 지급됩니다.
 Param/Value/575E2C34=보안 카메라 확보하기 (
-Param/Value/579546BE=ㅇ
 Param/Value/586C0FCE=사격 개시!
 Param/Value/58CFB917=<s val="HeaderExtendedTemplate">Medal of Honor</s>
 Param/Value/58DA23DB=
@@ -4476,7 +4472,6 @@ Param/Value/838A6F01=미완성된 이박스 유닛이 군 기지에 있다.
 Param/Value/83EBF2B8=Survive the outbreak with Apollo Security Team
 Param/Value/8423EF3A=아폴로 공항에서 적의 공격으로 부터 살아남기
 Param/Value/843B3A52=생태관 D를 파괴하라
-Param/Value/844F5014= 
 Param/Value/845C5CB0=<s val="GlueButton">파리카 어거스틴
 Param/Value/8505DA80=The infestation has taken hold at the airlock and your squad has riled their desire for blood. High ground will help you face the large hordes effectively.
 Param/Value/8569CB3E=-- (
@@ -4518,7 +4513,6 @@ Param/Value/8B17FA99=격납고의 데바스테이터들을 재가동 했다. 이
 Param/Value/8B3790A4=스탯
 Param/Value/8B3F7459=Too many distractions. Must focus.
 Param/Value/8B5E5F28=챕터 1
-Param/Value/8BCE2E2E=.</n>생체 아이디:
 Param/Value/8BD93954=<s val="BriefingHanText">   Designers<n/>   Daren Yoong (Ability)<n/>   Charles Passen (Kithrixx)</s>
 Param/Value/8BEB60C9=<n/>플레이 수:
 Param/Value/8BFF1855=아폴로 동쪽의 경비팀 B를 구출하라.
@@ -4599,7 +4593,6 @@ Param/Value/9784B3C9=<s val="BriefingHanText">사상자: 391,137</s>
 Param/Value/97B4CF43=이거로군. 여길 방어하고 두 명은 발전기 권한을 탈취한다.
 Param/Value/97B832BE=큰놈이 오는구만.
 Param/Value/97BA6CAF=<c val="FFFFFF">Shop Requirement:</c><n/><c val="FFFF00">5000 XP</c>
-Param/Value/97FCA790=</c>
 Param/Value/98459BD5=<s val="BriefingHanText">(통신 복구됨...)</s>
 Param/Value/9896D1D2=<s val="InfoPaneHeroRank">(전송 방해됨...)</s>
 Param/Value/98AE5903=<s val="InfoPaneHeroRank">(트럭이 파괴됐습니다...)</s>
@@ -4609,7 +4602,6 @@ Param/Value/98CC211C=<s val="BriefingHanText">(1 마리의 감염충이 남았�
 Param/Value/9903C46A=<s val="InfoPaneHeroRank">B루트 : - 채굴지 제어를 복구하고 헬륨-3을 처리하기</s>
 Param/Value/990943B5=<s val="BriefingHanText">(타나카 박사가 성공적으로 탈출했습니다...)</s>
 Param/Value/994123F6=근처의 요새가 방어하기 좋은 곳이군.
-Param/Value/995C2DF4=.</n>생체 아이디:
 Param/Value/99B5F70D=이 세포 구조체는 소화기에 면역이군. 칼로 난도질 해버리자.
 Param/Value/99C9601E=지하 구역에서 본 것들이 내 부하들에게 상처를 입혔다.
 Param/Value/99D46EAC=(에레보스가 재생 외피를 잃었습니다...)
@@ -4714,7 +4706,6 @@ Param/Value/AA9791B6=블랙 옵스의 공격으로 부터 살아남기
 Param/Value/AAD61ABF=거주민들을 도와줘!
 Param/Value/AAF27ACA=착륙선에서 크래딧으로 보급품을 살 수 있습니다.
 Param/Value/AB645118=우리 위치에서 동쪽에 문이 있다. 그 쪽으로 가서 바깥에서 문을 열자.
-Param/Value/AB935C32=조심해! 여왕으로 부터 멀리 떨어져!
 Param/Value/ABC09330=스킬
 Param/Value/AC1D32C7=수천명도 넘게 죽었군. UGC는 어디있는거지?
 Param/Value/AC49FA01=
@@ -4834,7 +4825,6 @@ Param/Value/C21BD67D=<c val="0080FF">고유 ID 저장 중... </c>
 Param/Value/C226EB8D=무기고에서 무기와 탄약을 회수하기
 Param/Value/C22C6D9F=구조한 민간인들을 동쪽에 있는 격리 구역으로 대피시켜!
 Param/Value/C24E98F7=생태관을 봉인하라. 2명의 인원이 있어야 생태관의 봉인 절차를 시행 할 수 있다. 이러면 잠시 동안 좀비들은 지하구역에 가둘수 있을 것이다..
-Param/Value/C290D501= 
 Param/Value/C2BC1258=임무 보너스 +2 XP
 Param/Value/C2DF0BE8=반복한다, 알파 중대가 긴급 탈출을 요청한다!
 Param/Value/C2F1C418=중위님 말 들었지? 가자고.
@@ -4941,7 +4931,6 @@ Param/Value/D33799C1=(보안 제어 권한 탈취중...)
 Param/Value/D340B464=죽으면 부활할 수 없습니다.
 Param/Value/D3964E51=성과 보너스! 2 XP가 추가로 지급됩니다.
 Param/Value/D3B2CA55=상등준위 후세인
-Param/Value/D3E5697B=(여왕이 귀를 찢는 비명을 지르려고 한다...)
 Param/Value/D40821C3=가 다음 계급으로 진급함 <c val="EDC22E">
 Param/Value/D4608DF2= +12 XP: 화학물질 봉인 완료
 Param/Value/D4674EA9=아폴로 내부에서 생존자를 찾기
@@ -5591,7 +5580,6 @@ Unit/Name/Wraith2=레이스
 Unit/Name/X1GuardianLevel1=X1 가디언 MK-1
 Unit/Name/X1GuardianLevel2=X1 가디언 MK-2
 Unit/Name/X1GuardianLevel3=X1 가디언 MK-3
-Unit/Name/XM222LMG=<c val="80FF80">XM222 경기관총</c>
 Unit/Name/XS4Armor=<c val="00FFFF">XS-4 방어구</c>
 Unit/Name/XS4ArmorHighlightTooltip=<c val="00FFFF">XS-4 방어구</c>
 Unit/Name/Zealot=질럿
@@ -5601,8 +5589,8 @@ Unit/Name/ZerglingPet=저글링
 Unit/Name/Zeus=제우스
 Unit/Name/ZombieBroodMother=무리 어미
 Unit/Name/ZombieBroodMother2=무리 어미
-Unit/Name/ZombieCreep=Zombie Creep
-Unit/Name/ZombieCreepLarge=Zombie Creep (Large)
+Unit/Name/ZombieCreep=좀비 크립
+Unit/Name/ZombieCreepLarge=좀비 크립 (대형)
 Unit/Name/ZombieLevel1=좀비
 Unit/Name/ZombieLevel12=좀비
 Unit/Name/ZombieLevel2=좀비
@@ -5688,75 +5676,54 @@ UserData/BossData/Nazara_Name=나자라
 UserData/BossData/Perses_Name=페르세스
 UserData/BossData/Seth_Name=세스
 UserData/BossData/Tartarus_Name=타르타로스
-UserData/Classes/Assault_Class CP Name=강습병/화방/기술자
 UserData/Classes/Assault_Class_CP_Name=강습병/화방/기술자
 UserData/Classes/Assault_Class_Name=강습병
 UserData/Classes/Assault_Class_Role=<s val="AchievementFrameName">강습병</s><n/>역할: 누커 / 탱커<n/>스킬트리: 화기 / 보호<n/>인벤토리 슬롯: 6<n/><n/><c val="F4D72B">강습병은 공세와 방어 양쪽에 능한 유닛입니다.</c>
-UserData/Classes/Chemical Expert_Class CP Name=폭파병/관측관/화학병
 UserData/Classes/Chemical Expert_Class_CP_Name=폭파병/관측관/화학병
 UserData/Classes/Chemical Expert_Class_Name=화학 전문가
 UserData/Classes/Chemical Expert_Class_Role=<s val="AchievementFrameName">화학 전문가</s><n/>역할: 전투 보조 화학 보병<n/>스킬트리: 화학전 / 지상 지원<n/>인벤토리 슬롯: 5<n/><n/><c val="F4D72B">화학병은 야전 화학 병기와 기술의 전문가입니다. 그들의 지식은 분대의 화력 지원이나 화학적 신체 증강에 도움을 줍니다.</c>
-UserData/Classes/Commando_Class CP Name=특공대원/사이오닉요원
 UserData/Classes/Commando_Class_CP_Name=특공대원/사이오닉요원
 UserData/Classes/Commando_Class_Name=특공대원
 UserData/Classes/Commando_Class_Role=<s val="AchievementFrameName">특공대원</s><n/>역할: 기밀처리됨.<n/>스킬트리: 기밀처리됨.<n/>인벤토리 슬롯: 4<n/><n/><c val="F4D72B">특공대원은 정밀한 타격과 전투를 훈련 받은 유닛입니다.</c>
-UserData/Classes/Commando_Locked Text=상사 계급에 해금됩니다. (10,000 XP). <n/><n/>1700 레이팅 이상이면 하사 (5,000 XP) 에 해금 할 수 있습니다.
 UserData/Classes/Commando_Locked_Text=상사 계급에 해금됩니다. (10,000 XP). <n/><n/>1700 레이팅 이상이면 하사 (5,000 XP) 에 해금 할 수 있습니다.
-UserData/Classes/Demolitions_Class CP Name=폭파병/관측관/화학병
 UserData/Classes/Demolitions_Class_CP_Name=폭파병/관측관/화학병
 UserData/Classes/Demolitions_Class_Name=폭파 전문가
 UserData/Classes/Demolitions_Class_Role=<s val="AchievementFrameName">폭파 전문가</s><n/>역할: 딜러 / 탱커<n/>스킬트리: 폭발물 / 요새화<n/>인벤토리 슬롯: 6<n/><n/><c val="F4D72B">폭파 전문가는 그의 전투 기술로 적들에게 징벌을 선사 합니다.</c>
-UserData/Classes/Demolitions_Locked Text=병장 계급(2,000 XP)에 해금 됩니다.
 UserData/Classes/Demolitions_Locked_Text=병장 계급(2,000 XP)에 해금 됩니다.
-UserData/Classes/Engineer_Class CP Name=공병/선도대
 UserData/Classes/Engineer_Class_CP_Name=공병/선도대
 UserData/Classes/Engineer_Class_Name=야전 공병
 UserData/Classes/Engineer_Class_Role=<s val="AchievementFrameName">야전 공병</s><n/>역할: 딜러 / 유틸리티<n/>스킬트리: 야전 지원 / 전투<n/>인벤토리 슬롯: 4<n/><n/><c val="F4D72B">야전 공병은 전쟁 기계와 기계학의 달인입니다.</c>
-UserData/Classes/Engineer_Locked Text=하사 계급(2,000 XP)에 해금 됩니다. <n/><n/> 1700 레이팅 이상 이면 병장 계급(2,500 XP)에서도 선택이 가능합니다.
 UserData/Classes/Engineer_Locked_Text=하사 계급(2,000 XP)에 해금 됩니다. <n/><n/> 1700 레이팅 이상 이면 병장 계급(2,500 XP)에서도 선택이 가능합니다.
-UserData/Classes/Flamethrower_Class CP Name=강습병/화방/기술자
 UserData/Classes/Flamethrower_Class_CP_Name=강습병/화방/기술자
 UserData/Classes/Flamethrower_Class_Name=화염방사병
 UserData/Classes/Flamethrower_Class_Role=<s val="AchievementFrameName">화염방사병</s><n/>역할: 누커 / 탱커<n/>스킬트리: 방화범 / 기사<n/>인벤토리 슬롯: 6<n/><n/><c val="F4D72B">화염방사병은 근접 전투에 탁월합니다.</c>
-UserData/Classes/Forward Observer_Class CP Name=폭파병/관측관/화학병
 UserData/Classes/Forward Observer_Class_CP_Name=폭파병/관측관/화학병
 UserData/Classes/Forward Observer_Class_Name=전방 관측관
 UserData/Classes/Forward Observer_Class_Role=<s val="AchievementFrameName">전방 관측관</s><n/>역할: 서포트 딜러<n/>스킬트리: 화력 지원 / 기동 보병<n/>인벤토리 슬롯: 4<n/><n/><c val="F4D72B">전방 관측관은 적의 무력화를 위해 막대한 화력을 사용 합니다.</c>
-UserData/Classes/Marksman_Class CP Name=지정 사수
 UserData/Classes/Marksman_Class_CP_Name=지정 사수
 UserData/Classes/Marksman_Class_Name=지정 사수
 UserData/Classes/Marksman_Class_Role=<s val="AchievementFrameName">지정 사수</s><n/>역할: 딜러/누커(어려움)<n/>스킬트리: 암살 / 기교<n/>인벤토리 슬롯: 4<n/><n/><c val="F4D72B">지정 사수는 고가치 목표의 사살과 장거리 전투의 전문가 입니다.</c>
-UserData/Classes/Marksman_Locked Text=상병 계급(500 XP)에 해금됩니다.
 UserData/Classes/Marksman_Locked_Text=상병 계급(500 XP)에 해금됩니다.
-UserData/Classes/Medic_Class CP Name=의무관
 UserData/Classes/Medic_Class_CP_Name=의무관
 UserData/Classes/Medic_Class_Name=의무관
 UserData/Classes/Medic_Class_Role=<s val="AchievementFrameName">의무관</s><n/>역할: 힐러 / 서포트<n/>스킬트리: 야전 의무 / 나노테크<n/>인벤토리 슬롯: 4<n/><n/><c val="F4D72B">의무관은 야전에서 필수적인 치료를 제공합니다. 모든 분대에 반드시 한명씩 있어야 합니다.</c>
-UserData/Classes/Pathfinder_Class CP Name=공병/선도대
 UserData/Classes/Pathfinder_Class_CP_Name=공병/선도대
 UserData/Classes/Pathfinder_Class_Name=선도대
 UserData/Classes/Pathfinder_Class_Role=<s val="AchievementFrameName">선도대</s><n/>역할: 신속 대응 보병<n/>스킬트리: 총잡이 / 로켓맨<n/>인벤토리 슬롯: 5<n/><n/><c val="F4D72B">공수부대에서 파생된 선도대는 신속 대응 보병입니다. 그들은 일말의 위험이라도 있는 곳에 배치되어 정찰 임무를 수행합니다. 경화기 사용에 광범위한 훈련을 받았으며 빠르고 유연한 대응을 위해 사용합니다.</c>
-UserData/Classes/Pathfinder_Locked Text=하사 계급(5,000 XP)에 해금됩니다.<n/><n/>1700 레이팅 이상이면 병장 계급(2,500 XP)에 선택이 가능합니다.
 UserData/Classes/Pathfinder_Locked_Text=하사 계급(5,000 XP)에 해금됩니다.<n/><n/>1700 레이팅 이상이면 병장 계급(2,500 XP)에 선택이 가능합니다.
-UserData/Classes/Psi Ops_Class CP Name=특공대원/사이오닉요원
 UserData/Classes/Psi Ops_Class_CP_Name=특공대원/사이오닉요원
 UserData/Classes/Psi Ops_Class_Name=사이오닉 요원
 UserData/Classes/Psi Ops_Class_Role=<s val="AchievementFrameName">사이오닉 요원</s><n/>역할: 기밀처리됨<n/>스킬트리: 정신숙달 / 텔레파시<n/>인벤토리 슬롯: 4<n/><n/><c val="F4D72B">사이오닉 요원은 UGC 특수전 아카데미에서 수료한 요원 입니다.</c>
-UserData/Classes/Psi Ops_Locked Text=상사 계급(10,000 XP)에 해금됩니다. <n/><n/>1700 레이팅 이상이면 하사(5,000 XP)에 선택이 가능합니다.
 UserData/Classes/Psi Ops_Locked_Text=상사 계급(10,000 XP)에 해금됩니다. <n/><n/>1700 레이팅 이상이면 하사(5,000 XP)에 선택이 가능합니다.
 UserData/Classes/Random_Class_Name=랜덤
 UserData/Classes/Random_Class_Role=<s val="AchievementFrameName">랜덤</s><n/>당신의 운을 실험해보세요. 랜덤 선택시 탄창 10개가 더 주어집니다.
-UserData/Classes/Recon_Class CP Name=정찰병
 UserData/Classes/Recon_Class_CP_Name=정찰병
 UserData/Classes/Recon_Class_Name=정찰병
 UserData/Classes/Recon_Class_Role=<s val="AchievementFrameName">정찰병</s><n/>역할: 유틸리티<n/>스킬트리: 감시 / 기동<n/>인벤토리 슬롯: 7<n/><n/><c val="F4D72B">정찰병은 분대의 눈과 귀 입니다. 정찰병의 기술은 분대를 지원하는데 특화 되어 있습니다.</c>
-UserData/Classes/Recon_Locked Text=일병 계급(100 XP)에 해금 됩니다.
 UserData/Classes/Recon_Locked_Text=일병 계급(100 XP)에 해금 됩니다.
-UserData/Classes/Rifleman_Class CP Name=소총수
 UserData/Classes/Rifleman_Class_CP_Name=소총수
 UserData/Classes/Rifleman_Class_Name=소총수
 UserData/Classes/Rifleman_Class_Role=<s val="AchievementFrameName">소총수</s><n/>역할: 딜러<n/>스킬트리: 전투 / 생존<n/>인벤토리 슬롯: 6<n/><n/><c val="F4D72B">소총수는 모든 보병 분대의 중추 입니다. 다재다능 하고 자급자족 하며 모든 분대에 존재합니다.</c>
-UserData/Classes/Technician_Class CP Name=강습병/화방/기술자
 UserData/Classes/Technician_Class_CP_Name=강습병/화방/기술자
 UserData/Classes/Technician_Class_Name=기술자
 UserData/Classes/Technician_Class_Role=<s val="AchievementFrameName">기술자</s><n/>역할: 서포트 / 탱커<n/>스킬트리: 무기 / 개조<n/>인벤토리 슬롯: 6<n/><n/><c val="F4D72B">강력한 엑소슈트로 무장한 기술자는 어떤 것이든 날려버릴수 있습니다.</c>
@@ -6049,7 +6016,8 @@ UserData/SurvivalWaveNames/Wave 18_Title=Wave 18
 UserData/SurvivalWaveNames/Wave 18_Wave Name=Fast & Furious
 UserData/SurvivalWaveNames/Wave 19_Title=Wave 19
 UserData/SurvivalWaveNames/Wave 19_Wave Name=I will Cut You
-UserData/SurvivalWaveNames/Wave 1_Wave Name=Wave 1
+UserData/SurvivalWaveNames/Wave 1_Title=Wave 1
+UserData/SurvivalWaveNames/Wave 1_Wave Name=I See Dead People
 UserData/SurvivalWaveNames/Wave 20_Wave Name=Boss 2 - Seth & Ivax
 UserData/SurvivalWaveNames/Wave 21_Wave Name=Bullseye
 UserData/SurvivalWaveNames/Wave 22_Wave Name=I'll Be Back
@@ -6323,7 +6291,7 @@ Weapon/Name/IVAXPlasmaCannons=IVAX 플라즈마 캐논
 Weapon/Name/ImpalerTentacleL1=관통 촉수
 Weapon/Name/ImpalerTentacleR1=관통 촉수
 Weapon/Name/InfestedAbomination2=여왕의 날카로운 칼날
-Weapon/Name/InfestedTalons=여왕의 날카로운 칼날
+Weapon/Name/InfestedTalons=감염된 발톱
 Weapon/Name/KaiserBlades2=카이저 블레이드
 Weapon/Name/KineticCatapultLevel1=키네틱 캐터펄트 (레벨 1)
 Weapon/Name/KineticCatapultLevel2=키네틱 캐터펄트 (레벨 2)
@@ -6362,7 +6330,6 @@ Weapon/Name/VolatileBurstBuildingBeastling=휘발성 폭발
 Weapon/Name/VolatileBurstDummyBeastling=휘발성 폭발
 Weapon/Name/VultureSpiderMines=지뢰
 Weapon/Name/X3MilitaryDroneLaser=X-3 군용 드론 레이저
-Weapon/Name/XM222LMG=<c val="80FF80">XM222 경기관총</c>
 Weapon/Name/ZombieClaws=좀비 손톱 Lv.1
 Weapon/Name/ZombieClawsLevel2=좀비 손톱 Lv.2
 Weapon/Tip/BlackDogTurretAMRounds=
@@ -6381,5 +6348,14 @@ Weapon/Tip/PiercingTalons=
 Weapon/Tip/Shiva=Shiva destroys everything within 30 radius of target area.
 Weapon/Tip/SniperRifleMini=원샷, 원킬. <n/><n/><c val="80FF00">공중유닛에 추가 데미지.</c>
 Weapon/Tip/VolatileBurstDummyBeastling=Only used against units.
-Weapon/Tip/XM222LMG=<c val="80FF80">XM222 경기관총</c><n/>경기관총 툴팁.<n/>공격력: <c val="FFFFFF">20</c></n>광역 피해: <c val="FFFFFF">2.5</c><n/>재장전 시간: <c val="FFFFFF">3.5초</c><n/>장착 시간: <c val="FFFFFF">2.2초</c><n/>무게: <c val="FFFFFF">17</c>
 e_gameUIStringDamageVersusColon=vs %attributeType%:
+Param/Value/D3E5697B=(여왕이 귀를 찢는 비명을 지르려고 한다...)
+Param/Value/2369F6BA=위험! 여왕으로 부터 멀리 도망가세요.
+Param/Value/AB935C32=조심해! 여왕으로 부터 멀리 떨어져!
+Param/Value/2776FDCA=.</c>
+Param/Value/579546BE=ㅇ
+Param/Value/844F5014= 
+Param/Value/8BCE2E2E=.</n>생체 아이디:
+Param/Value/97FCA790=</c>
+Param/Value/995C2DF4=.</n>생체 아이디:
+Param/Value/C290D501= 
